@@ -1,0 +1,4 @@
+#header { height: 60px; background-color: #000; overflow-x: auto; overflow-y: hidden; }
+#header .home { border: 1px solid #000; font-size: 26px; border-radius: 4px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; text-align: center; cursor: pointer; background-color: #FFF; margin: 5px; height: 55px; }
+#header .scrollable { flex-wrap: nowrap; }
+#header .col-tab { min-width: 180px; }

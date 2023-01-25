@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Preguntas y respuestas",
+        "location": "./apps/questionnaire-app/index.html",
+        "icon": "assets/apps/icons/preguntas-respuestas.png"
+    },
+    {
+        "name": "Lista tareas",
+        "location": "./apps/task-list-app/index.html",
+        "icon": "assets/apps/icons/list-taks.jpg"
+    },
+    {
+        "name": "Lista contactos",
+        "location": "./apps/contact-list-app/index.html",
+        "icon": "assets/apps/icons/contact-list.png"
+    },
+    {
+        "name": "Cocktails",
+        "location": "./apps/cocktail-app/index.html",
+        "icon": "assets/apps/icons/cocktail.png"
+    },
+    {
+        "name": "Viajes soñados",
+        "location": "./apps/dream-trip-app/index.html",
+        "icon": "assets/apps/icons/dream-trips.png"
+    },
+    {
+        "name": "Reservas peluqueria",
+        "location": "./apps/bookings-app/index.html",
+        "icon": "assets/apps/icons/booking.png"
+    },
+    {
+        "name": "Burger Queen",
+        "location": "./apps/burquer-queen-app/index.html",
+        "icon": "assets/apps/icons/burger-queen.jpg"
+    },
+    {
+        "name": "Dashboard",
+        "location": "./apps/dashboard-app/index.html",
+        "icon": "assets/apps/icons/blog.png"
+    },
+    {
+        "name": "Blog dinamico",
+        "location": "./apps/blog-dynamic-app/index.html",
+        "icon": "assets/apps/icons/blog.png"
+    },
+    {
+        "name": "Controla gastos",
+        "location": "./apps/controla-gastos-app/index.html",
+        "icon": "assets/apps/icons/controla-gastos.png"
+    },
+    {
+        "name": "Visor pedidos Burger queen",
+        "location": "./apps/visor-pedidos-burguer-queen/index.html",
+        "icon": "assets/apps/icons/burger-queen.jpg"
+    }
+]

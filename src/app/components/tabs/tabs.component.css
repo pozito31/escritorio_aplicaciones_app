@@ -1,0 +1,2 @@
+.tab { border: 1px solid #000; border-radius: 4px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; position: relative; padding: 10px; cursor: pointer; background-color: #FFF; margin: 5px; height: 55px; }
+.tab .tab-close { position: absolute; top: 2px; right: 3px; font-size: 18px; }

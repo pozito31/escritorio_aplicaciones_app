@@ -1,0 +1,11 @@
+<div
+  class="tab"
+  (click)="selectApp()"
+  [ngClass]="{ 'border-bottom-0': tabsService.appSelected?.name == app.name }"
+  [title]="app.name"
+>
+  <span>{{
+    app.name.length > 15 ? (app.name | slice : 0 : 10) + "..." : app.name
+  }}</span>
+  <i class="fa fa-times tab-close" (click)="closeTab($event)"></i>
+</div>

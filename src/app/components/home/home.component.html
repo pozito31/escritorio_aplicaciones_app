@@ -1,0 +1,48 @@
+<div class="row" id="home" *ngIf="!tabsService.appSelected">
+  <div class="col-12 h-100">
+    <div class="row mt-3">
+      <div class="col-12">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search..."
+          class="form-control"
+          (keyup)="filterApps($event)"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="row no-gutters mt-3 p-3 rounded border">
+          <div
+            class="col-2 col-md-4 col-lg-3 mb-3"
+            *ngFor="let app of appsFiltered"
+          >
+            <img
+              class="d-block m-auto icon-app"
+              [src]="app.icon"
+              (click)="goToApp(app)"
+            />
+            <span class="d-block text-center text-app">{{ app.name }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="home" [ngClass]="{ 'd-none': !tabsService.appSelected }">
+  <div class="col-12 h-100 p-0">
+    <iframe
+      *ngFor="let app of tabsService.tabs"
+      [src]="app.location | sanitize"
+      class="w-100 h-100"
+      [ngClass]="{
+        'd-block': tabsService.appSelected?.name == app.name,
+        'd-none': tabsService.appSelected?.name != app.name
+      }"
+      frameborder="0"
+    ></iframe>
+  </div>
+</div>

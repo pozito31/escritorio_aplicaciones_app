@@ -1,0 +1,12 @@
+<div class="row" id="header">
+  <div class="col-12">
+    <div class="row scrollable">
+      <div class="col-1 home" (click)="clickHome()">
+        <i class="fa fa-home"></i>
+      </div>
+      <div class="col-2" *ngFor="let app of tabsService.tabs">
+        <app-tabs [app]="app"></app-tabs>
+      </div>
+    </div>
+  </div>
+</div>
